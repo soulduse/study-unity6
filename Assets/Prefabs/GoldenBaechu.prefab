@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1812447808163243978}
   - component: {fileID: 8581330680113734912}
   - component: {fileID: 652100369492160520}
+  - component: {fileID: 2286523640653611754}
+  - component: {fileID: -5588985202446209553}
   m_Layer: 0
   m_Name: GoldenBaechu
   m_TagString: golden
@@ -125,3 +127,28 @@ CapsuleCollider2D:
   m_Offset: {x: -0.017372072, y: -0.0036860704}
   m_Size: {x: 0.72791636, y: 0.7942555}
   m_Direction: 0
+--- !u!114 &2286523640653611754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5287155233639583245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306d0fb2202604f1aa2ea0dbee165bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+--- !u!114 &-5588985202446209553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5287155233639583245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebb8d64826284d4db8e962151f17e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

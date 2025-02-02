@@ -19,6 +19,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        meshRenderer.material.mainTextureOffset += new Vector2(scrolleSpeed * Time.deltaTime, 0);
+        meshRenderer.material.mainTextureOffset += new Vector2(scrolleSpeed * GameManager.Instance.CalculateGameSpeed() / 20f * Time.deltaTime, 0);
     }
 }

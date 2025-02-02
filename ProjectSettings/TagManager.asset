@@ -6,6 +6,7 @@ TagManager:
   tags:
   - food
   - golden
+  - enemy
   layers:
   - Default
   - TransparentFX

@@ -9,16 +9,14 @@ public class Spawner : MonoBehaviour
     [Header("References")]
     public GameObject[] gameObjects;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void OnEnable()
     {
         Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
-        
+        CancelInvoke();
     }
 
     void Spawn()
